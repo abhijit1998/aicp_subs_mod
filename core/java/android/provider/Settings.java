@@ -10858,6 +10858,15 @@ public final class Settings {
          *
          * @see android.view.View#SYSTEM_DESIGN_FLAG_IMMERSIVE_NAV
          * @see android.view.View#SYSTEM_DESIGN_FLAG_IMMERSIVE_STATUS
+         * Force authorize Substratum (or equivalent) frontend calling packages by ThemeInterfacer
+         * The value is boolean (1 or 0).
+         * @hide
+         */
+        public static final String FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES = "force_authorize_substratum_packages";
+
+        /**
+         * 0 (default) Auto battery saver suggestion has not been suppressed. 1) it has been
+         * suppressed.
          * @hide
          */
         public static final String SYSTEM_DESIGN_FLAGS = "system_design_flags";
